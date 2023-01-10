@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'demoAzuree'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_919d4035620243eeb0a9192e732e338d }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_e7b2cada60d846c6b7083580d6524b46 }}
           package: '*.jar'
