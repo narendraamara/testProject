@@ -13,7 +13,7 @@ public class Welcome {
 	
 	@GetMapping("/HelloWorld")
 	public String HelloWorld() {
-		return "Hii Narendra Welcome to Rest API SpringBoot Application";
+		//return "Hii Narendra Welcome to Rest API SpringBoot Application";
 		return "Heyy Narendra I've got one req...!";
 		//System.out.println("Heyy Narendra I've got one req...!");
 	}
